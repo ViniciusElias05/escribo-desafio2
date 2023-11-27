@@ -4,8 +4,12 @@
   "main": "index.js",
   "author": "Vinicius Elias <vini-mq@hotmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "18"
+  },
   "scripts": {
-    "start": "node ./src/index.js",
+    "start": "node ./dist/index.js",
+    "build": "gulp build",
     "dev": "nodemon ./src/index.js",
     "test": "jest --passWithNoTests --detectOpenHandles"
   },
